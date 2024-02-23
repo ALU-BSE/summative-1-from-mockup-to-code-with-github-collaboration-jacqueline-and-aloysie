@@ -9,68 +9,81 @@
 </head>
 <body>
   <header>
-    <h1>Event List</h1>
+     <nav class="navbar">
+        <h1>FOOD SHARE</h1>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#about">About us</a></li>
+            <li><a href="events.html">Events</a></li>
+            <l><a href="events.html#favorite">Favourites</a></li>
+            <li><a href="sign.html">Sign in</a></li>
+            <li><a href="events.html#search">Search</a></li>
+          </ul>
+      </nav>
   </header>
 
   <main>
-    <div class="grid-container">
-      <div class="card">
-        <div class="card-img-container">
-          <img src="images/grannies.jpg" alt="Event 1 Image" class="card-img">
+    <section class="event-list">
+      <h1>Events</h1>
+      <div class="grid-container">
+        <div class="card">
+          <div class="card-img-container">
+            <img src="images/grannies.jpg" alt="Event 1 Image" class="card-img">
+          </div>
+          <div class="card-content">
+            <p>Date: January 15, 2024</p>
+            <button class="details-btn">Details</button>
+          </div>
+          <div class="card-description">
+            <h2>Youth Gathering</h2>
+            <p>Description of Youth Gathering.</p>
+          </div>
         </div>
-        <div class="card-content">
-          <p>Date: January 15, 2024</p>
-          <button class="details-btn">Details</button>
-        </div>
-        <div class="card-description">
-          <h2>Youth Gathering</h2>
-          <p>Description of Youth Gathering.</p>
-        </div>
-      </div>
 
-      <div class="card">
-        <div class="card-img-container">
-          <img src="images/grannies.jpg" alt="Event 2 Image" class="card-img">
+        <div class="card">
+          <div class="card-img-container">
+            <img src="images/grannies.jpg" alt="Event 2 Image" class="card-img">
+          </div>
+          <div class="card-content">
+            <p>Date: February 10, 2024</p>
+            <button class="details-btn">Details</button>
+          </div>
+          <div class="card-description">
+            <h2>Grannies Cooking</h2>
+            <p>Description of Grannies Cooking.</p>
+          </div>
         </div>
-        <div class="card-content">
-          <p>Date: February 10, 2024</p>
-          <button class="details-btn">Details</button>
-        </div>
-        <div class="card-description">
-          <h2>Grannies Cooking</h2>
-          <p>Description of Grannies Cooking.</p>
-        </div>
-      </div>
 
-      <div class="card">
-        <div class="card-img-container">
-          <img src="images/grannies.jpg" alt="Event 3 Image" class="card-img">
-        </div>
-        <div class="card-content">
-          <p>Date: March 5, 2024</p>
-          <button class="details-btn">Details</button>
-        </div>
-        <div class="card-description">
-          <h2>Family Dinner</h2>
-          <p>Description of Family Dinner.</p>
+        <div class="card">
+          <div class="card-img-container">
+            <img src="images/grannies.jpg" alt="Event 3 Image" class="card-img">
+          </div>
+          <div class="card-content">
+            <p>Date: March 5, 2024</p>
+            <button class="details-btn">Details</button>
+          </div>
+          <div class="card-description">
+            <h2>Family Dinner</h2>
+            <p>Description of Family Dinner.</p>
+          </div>
         </div>
       </div>
-    </div>
     
 
-    <button id="see-more">See More</button>
+      <button id="see-more">See More</button>
 
-    <div id="invitation">
-      <img id="popcorn-img" src="images/popcorn.svg" alt="Popcorn Image">
-      <div class="invitation-content">
-        <p>Invite your friends and get free snacks!</p>
-        <button id="invite-btn">Invite</button>
+      <div id="invitation">
+        <img id="popcorn-img" src="images/popcorn.svg" alt="Popcorn Image">
+        <div class="invitation-content">
+          <p>Invite your friends and get free snacks!</p>
+          <button id="invite-btn">Invite</button>
+        </div>
       </div>
-    </div>
+    </section>
 
       <!--search section-->
 
-      <section class="search" id="search-section">
+    <section class="search" id="search">
         <div class="search-header">
           <h2>Search</h2>
         </div>
@@ -107,7 +120,7 @@
             <p>Description of the event. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
         </div>
-      </section>
+    </section>
       <!--favorite section-->
 
   </main>
