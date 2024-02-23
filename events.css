@@ -194,6 +194,7 @@ header {
   flex: 1;
 }
 
+/* favorite*/
 /* Media Queries */
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .grid-container {
