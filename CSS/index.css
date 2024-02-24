@@ -3,10 +3,7 @@ body{
     height: 100%;
     margin: 0;
     padding: 0;
-    background-image: url('../images/home.png');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: rgb(175, 203, 118);
     background-attachment: fixed;
 }
 
@@ -155,4 +152,35 @@ button a{
     width: 100%;
     height: 100%;
     background-color: orange;
+}
+.favourites{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(175, 203, 118)
+}
+.favourites h1{
+    text-align: center;
+    font-size: 40px;
+    color: #120f0f;
+    padding-top: 20px;
+    padding-bottom: -50px;
+}
+.container1{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+.container1 .co img {
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+.co h1{
+    text-align: center;
+    font-size: 30px;
+    color: #120f0f;
+    padding-top: -80px;
+    padding-bottom: -50px;
 }
