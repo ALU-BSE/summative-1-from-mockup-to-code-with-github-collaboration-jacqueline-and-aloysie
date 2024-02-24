@@ -1,3 +1,10 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+}
+
 body {
   width: 100%;
   height: 100%;
@@ -5,67 +12,54 @@ body {
   padding: 0;
   background-color: rgb(175, 203, 118);
   background-attachment: fixed;
-  font-family: poopins;
+  font-family: "poppins", sans-serif;
+  overflow-x: hidden;
 }
 
+/*navbar*/
 .navbar {
   width: 100%;
-  height: 75px;
-  margin: auto;
-  display: flex;
-  background-color: orange;
-}
-
-nav {
-  width: 100%;
-  height: 75px;
+  height: auto;
+  margin: 10px 0px;
+  padding: 10px 0px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  background-color: orange;
+  justify-content: space-around;
 }
 
-ul {
-  display: flex;
-  list-style: none;
-  margin-right: 30px;
-  background-color: orange;
-}
-
-ul li a {
+.navbar h1 a {
   text-decoration: none;
-  color: #120f0f;
-  font-size: 20px;
-  padding: 0 20px;
-  font-family: sans-serif;
-  font-weight: bold;
+  color: rgb(2, 112, 2);
 }
 
-nav h1 {
-  color: #0c7214;
-  margin-left: 30px;
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-h2 {
-  text-align: center;
-  font-size: 40px;
-  color: #120f0f;
-  margin: 250px;
-  margin-bottom: 150px;
+.navbar ul li {
+  padding: 0 10px;
 }
 
-button {
-  width: 400px;
-  height: 70px;
-  font-size: 20px;
-  background-color: #0c7214;
-  border: none;
-  font-weight: bold;
-  border-radius: 10px;
-  color: #120f0f;
-  margin-left: 550px;
-  margin-top: -60px;
-  cursor: pointer;
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-family: "poppins", sans-serif;
+  font-weight: 600;
+}
+
+.navbar ul li a:hover, .navbar ul li a:focus, .navbar ul li a:active {
+  color: rgb(240, 3, 3);
+}
+
+/*home page*/
+.home {
+  width: 100%;
 }
 
 button a {
@@ -181,10 +175,6 @@ button a {
   display: flex;
   flex-wrap: wrap;
   padding: 50px;
-  float:50%;
-  border: 2x solid #120f0f;
-  border-radius: 20px;
-  background-color: white;
 }
 
 .container1 .co img {
