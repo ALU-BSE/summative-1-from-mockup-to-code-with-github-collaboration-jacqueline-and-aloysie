@@ -181,6 +181,10 @@ button a {
   display: flex;
   flex-wrap: wrap;
   padding: 50px;
+  float:50%;
+  border: 2x solid #120f0f;
+  border-radius: 20px;
+  background-color: white;
 }
 
 .container1 .co img {
