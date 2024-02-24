@@ -5,6 +5,7 @@ body{
     padding: 0;
     background-color: rgb(175, 203, 118);
     background-attachment: fixed;
+    font-family:poopins;
 }
 
 
@@ -177,10 +178,22 @@ button a{
     border-radius: 20px;
     
 }
-.co h1{
-    text-align: center;
+.co h2{
+    text-align: left;
     font-size: 30px;
+    font-family: poopins;
     color: #120f0f;
-    padding-top: -80px;
-    padding-bottom: -50px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.rating{
+    font-size: 20px;
+    color: #120f0f;
+    margin-left: 10px;
+    margin-top: -10px;
+    font-family: poopins;
+    border: 2px solid #120f0f;
+    border-radius: 10px;
+    padding: 5px;
 }
