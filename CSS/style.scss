@@ -1,67 +1,74 @@
+// variables
+
+$call-to-action: rgb(240, 3, 3);
+$secondary-color: rgb(2, 112, 2);
+$Primary-color:  rgb(175, 203, 118);
+
+$font-family: 'poppins', sans-serif;
+$font-headings: 48px;
+$font-sub-headings: 36px;
+$font-titles: 24px;
+$font-paragraphs: 18px;
+$text-color-white: white;
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: $font-family;
+}
+
 body{
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: rgb(175, 203, 118);
+    background-color: $Primary-color;
     background-attachment: fixed;
-    font-family:poopins;
+    font-family: $font-family;
+    overflow-x: hidden;
 }
-
-
+/*navbar*/
 .navbar{
     width: 100%;
-    height: 75px;
-    margin: auto;
-    display: flex;
-    background-color: orange;
-}
-nav{
-    width: 100%;
-    height: 75px;
+    height: auto;
+    margin: 10px 0px;
+    padding: 10px 0px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    background-color: orange;
+    justify-content: space-around;
 }
-ul{
-    display: flex;
-    list-style: none;
-    margin-right: 30px;
-    background-color: orange;
-}
-ul li a{
+.navbar h1 a{
     text-decoration: none;
-    color: #120f0f;
-    font-size: 20px;
-    padding: 0 20px;
-    font-family: sans-serif;
-    font-weight: bold;
+    color: $secondary-color;
 }
-nav h1{
-    color: #0c7214;
-    margin-left: 30px;
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-h2{
-    text-align: center;
-    font-size: 40px;
-    color: #120f0f;
-    margin:250px;
-    margin-bottom: 150px;
+.navbar ul li{
+    padding: 0 10px;
 }
-button{
-    width: 400px;
-    height: 70px;
-    font-size: 20px;
-    background-color:#0c7214;
-    border: none;
-    font-weight: bold;
-    border-radius: 10px;
-    color: #120f0f;
-    margin-left: 550px;
-    margin-top: -60px;
-    cursor: pointer; 
+.navbar ul li a{
+    text-decoration: none;
+    color: $text-color-white;
+    font-size: $font-paragraphs;
+    font-family:$font-family;
+    font-weight: 600;
+}
+.navbar ul li a:hover, .navbar ul li a:focus, .navbar ul li a:active{
+    color: $call-to-action;
+}
+/*home page*/
+
+.home{
+    width: 100%;
+    
 }
 button a{
     text-decoration: none;
@@ -139,61 +146,4 @@ button a{
     margin: 50px;
     margin-top: -90px;
     padding-top: 10px;
-}
-@media screen and (min-width: 600px) {
-    .navbar{
-        width: 100%;
-        height: 75px;
-        margin: auto;
-        display: flex;
-        background-color: orange;
-    }
-}
-.events{
-    width: 100%;
-    height: 100%;
-    background-color: orange;
-}
-.favourites{
-    width: 100%;
-    height: 100%;
-    background-color: rgb(175, 203, 118)
-}
-.favourites h1{
-    text-align: center;
-    font-size: 40px;
-    color: #120f0f;
-    padding-top: 20px;
-    padding-bottom: -50px;
-}
-.container1{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 50px;
-}
-.container1 .co img {
-    width: 400px;
-    height: 300px;
-    padding: 20px;
-    border-radius: 20px;
-    
-}
-.co h2{
-    text-align: left;
-    font-size: 30px;
-    font-family: poopins;
-    color: #120f0f;
-    padding: 10px;
-    margin-top: 20px;
-    margin-left: 10px;
-}
-.rating{
-    font-size: 20px;
-    color: #120f0f;
-    margin-left: 10px;
-    margin-top: -10px;
-    font-family: poopins;
-    border: 2px solid #120f0f;
-    border-radius: 10px;
-    padding: 5px;
 }
