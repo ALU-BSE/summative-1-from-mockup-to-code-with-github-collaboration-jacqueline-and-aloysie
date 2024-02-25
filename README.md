@@ -61,6 +61,6 @@ Before starting the implementation, the team conducted thorough research and cre
 
 The color scheme was chosen to match the topic, with bright colors reminiscent of tasty foods. Each color represents fresh fruits, spices, and different kinds of food, inviting users to enjoy a wonderful time with Food_Share.
 
-## Links
+## design Link
 https://www.figma.com/file/9hGBQU2SCW85SmdSHaalAY/Food-Share?type=design&node-id=101%3A325&mode=design&t=XK5s1G7uLO1aghs2-1
 
