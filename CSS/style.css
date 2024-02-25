@@ -169,12 +169,16 @@ span.sub-heading {
 }
 .about-content .jacky img, .about-content .lucky img {
   width: 50%;
-  border-radius: 10px;
-  margin: 20px;
-  border: none;
+  padding: 20px;
+  padding-top: 10px;
 }
 
-<<<<<<< HEAD
+#lucky {
+  width: 50%;
+  padding: 20px;
+  padding-top: 10px;
+}
+
 #about {
   margin: 50px;
   margin-top: -90px;
@@ -257,7 +261,6 @@ span.sub-heading {
   padding: 15px;
   font-weight: 500;
 }
-
 .rate:hover {
   transform: scale(1.2);
 }
@@ -319,7 +322,6 @@ span.sub-heading {
   padding: 10px;
   box-shadow: 2px 2px 10px #120f0f;
 }
-
 #btns button:hover {
   transform: scale(1.2);
   background-color: red;
@@ -340,8 +342,7 @@ span.sub-heading {
   font-family: poopins;
   color: #120f0f;
 }
-
-.contact-info {
+.contact-info{
   float: left;
   width: 50%;
   padding: 50px;
@@ -349,8 +350,7 @@ span.sub-heading {
   shape-outside: 2px dashed #120f0f;
   border-right: 2px dashed #120f0f;
 }
-
-.form {
+.form{
   float: right;
   width: 50%;
   padding: 50px;
@@ -358,7 +358,6 @@ span.sub-heading {
   shape-outside: 2px dashed #120f0f;
   border-right: 2px dashed #120f0f;
 }
-
 .form input {
   display: grid;
   grid-gap: 10px;
@@ -370,8 +369,7 @@ span.sub-heading {
   color: white;
   background-color: gradient(to right, rgb(175, 203, 118), rgb(187, 43, 30));
 }
-
-.form textarea {
+.form textarea{
   display: grid;
   grid-gap: 10px;
   width: 400px;
@@ -382,114 +380,31 @@ span.sub-heading {
   color: white;
   background-color: gradient(to right, rgb(175, 203, 118), rgb(187, 43, 30));
 }
-
-.form h2 {
+.form button {
+    
+}
+.form h2{
   text-align: left;
   font-size: 25px;
   font-family: poopins;
   padding-top: -30px;
 }
-
-/*# sourceMappingURL=style.css.map */
-=======
-@media screen and (max-width: 767px) {
-  body {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    overflow-x: hidden;
-    overlay: hidden;
-  }
-  .navbar {
-    width: 100%;
-    height: auto;
-    margin: 0;
-    padding: 10px 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .navbar h1 a {
-    text-decoration: none;
-    color: rgb(2, 112, 2);
-  }
-  .navbar ul {
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  .navbar ul li {
-    padding: 0 10px;
-  }
-  .navbar ul li a {
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-    font-family: "poppins", sans-serif;
-    font-weight: 600;
-  }
-  .navbar ul li a:hover, .navbar ul li a:focus, .navbar ul li a:active {
-    color: rgb(240, 3, 3);
-  }
-  /*home page*/
-  .home {
-    padding: 150px 0px;
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .home-content {
-    width: 100%;
-    margin: 100px 10px;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-  }
-  .intro {
-    align-self: center;
-    width: auto;
-    margin: 10px;
-  }
-  span.heading {
-    font-size: 48px;
-    color: rgb(240, 3, 3);
-    font-family: "poppins", sans-serif;
-    padding: 10px 0px;
-  }
-  span.sub-heading {
-    font-size: 36px;
-    color: white;
-    font-family: "poppins", sans-serif;
-  }
-  .intro-img {
-    max-width: 400px;
-  }
-  .intro-img img {
-    width: 100%;
-    padding: 10px;
-    border-radius: 50px;
-  }
-  /*about*/
-  .about-content {
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    margin-right: 50px;
-  }
+.contact-info .ca{
+  display: grid;
+  float:left;
+  width: 50%;
+  padding :10px;
 }
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  body {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    overflow-x: hidden;
-    overlay: hidden;
-  }
-}/*# sourceMappingURL=style.css.map */
->>>>>>> a7204ebddebe57eaae9fce43001eaa49d6368cf4
+.contact-info .cb{
+  float:right;
+  width: 50%;
+  padding: 10px;
+}
+.contact-info h2{
+  text-align: left;
+  font-size: 25px;
+  font-family: poopins;
+  padding-top: -30px;
+  font-weight: 100;
+}
+/*# sourceMappingURL=style.css.map */
